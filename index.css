@@ -178,7 +178,7 @@ body{
 }
 
 .step-img-box {
-  position: relative;
+
   display: grid;
   grid-template-columns: 1fr 2fr; /* Two columns */
   grid-template-rows: auto; /* Single row for images */
