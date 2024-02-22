@@ -229,7 +229,7 @@ body{
   }
 
   .grid {
-    column-gap: 4.8rem;
+    column-gap: 2.8rem;
     row-gap: 6.4rem;
   }
 
@@ -403,7 +403,6 @@ body{
 
 .grid {
   display: grid;
-  
   row-gap: 9.6rem;
 }
 
