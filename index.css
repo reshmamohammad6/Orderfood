@@ -407,6 +407,7 @@ body{
 
 .grid {
   display: grid;
+  column-gap: 2rem 
   row-gap: 9.6rem;
 }
 
