@@ -16,19 +16,15 @@ body{
   font-family: italic;
   font-weight: bold;
 }
-
 /**************************/
 /* NAVIGATION */
 /**************************/
-
 .main-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 4.8rem;
-  
 }
-
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
@@ -39,21 +35,18 @@ body{
   transition: all 0.3s;
 }
 
-
-
 /* MOBILE */
 .btn-mobile-nav {
   border: none;
   background: none;
   cursor: pointer;
-  display: block;
+  display: none;
 }
 
 .icon-mobile-nav {
-  height: 3.8rem;
+  height: 4.8rem;
   width: 4.8rem;
   color: #000;
-  padding-left: 35px;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -106,8 +99,8 @@ body{
 
 .hero-img {
   width: 100%;
-    height: 100%; /* Ensure the image takes up the full height of its container */
-    object-fit: cover; /* Ensure the image covers the entire container */
+  height: 100%; /* Ensure the image takes up the full height of its container */
+  object-fit: cover; /* Ensure the image covers the entire container */
 }
 
 .delivered-meals {
