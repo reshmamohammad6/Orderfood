@@ -389,6 +389,9 @@ body{
   margin-bottom: 3.2rem;
   color: rgb(14, 13, 13);
 }
+  .btn, .btn:link, .btn:visited {
+    padding: 1rem 4.2rem;
+}
 }
 
 /**************************/
