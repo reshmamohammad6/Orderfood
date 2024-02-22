@@ -281,6 +281,7 @@ body{
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+    padding-left: 80%;
   }
 
   .main-nav {
