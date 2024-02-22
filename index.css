@@ -3,6 +3,7 @@
 /**************************/
 body{
   background: linear-gradient(to left , #ffb6ec, #ffefb5 );
+  overflow:hidden;
 }
 .header {
   display: flex;
