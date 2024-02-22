@@ -180,7 +180,7 @@ body{
 .step-img-box {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-template-columns: 1fr 2fr; /* Two columns */
   grid-template-rows: auto; /* Single row for images */
   gap: 10px; /* Adjust the gap between images */
   align-content: start; /* Align grid items at the start of the grid container */
