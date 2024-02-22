@@ -1,3 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 /**************************/
 /* HEADER */
 /**************************/
@@ -218,7 +229,6 @@ body{
 
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px  */
     font-size: 56.25%;
   }
 
@@ -259,11 +269,7 @@ body{
 
   .hero {
     grid-template-columns: 1fr 1fr;
-    
   }
-
-  
-
   .hero-img {
     width: 100%;
   }
@@ -296,21 +302,10 @@ body{
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
-
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
-    opacity: 1;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
+    opacity: 0;
     pointer-events: none;
-
-    /* 3) Hide it from screen readers */
     visibility: hidden;
   }
-
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
@@ -323,7 +318,7 @@ body{
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: block;
+    display: none;
   }
 
   .main-nav-list {
@@ -342,37 +337,8 @@ body{
 /**************************/
 
 @media (max-width: 44em) {
-  .grid--3-cols,
-  .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .diets {
-    grid-column: 1 / -1;
-    justify-self: center;
-  }
-
   .heading-secondary {
     margin-bottom: 4.8rem;
-  }
-
-  .pricing-plan {
-    width: 100%;
-  }
-
-  .grid--footer {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  .logo-col,
-  .address-col {
-    grid-column: span 3;
-  }
-
-  .nav-col {
-    grid-row: 1;
-    grid-column: span 2;
-    margin-bottom: 3.2rem;
   }
 }
 
@@ -384,45 +350,32 @@ body{
   .grid {
     row-gap: 4.8rem;
   }
-
-  .grid--2-cols,
-  .grid--3-cols,
-  .grid--4-cols {
+  .grid--2-cols{
     grid-template-columns: 1fr;
   }
-
   .btn,
   .btn:link,
   .btn:visited {
     padding: 2.4rem 1.6rem;
   }
-
-  
-
   .hero {
     padding: 0 3.2rem;
   }
-
   .hero-img {
     width: 120%;
     height: 200px;
 }
-
   .heading-primary {
     font-size: 1.4rem;
     line-height: 1.05;
     margin-bottom: 7rem;
 }
-
 .hero-description {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
   color: #000;
 }
-
-  
-
   .step-text-box {
     background-color: #ff7171;
     padding: 10px;
@@ -440,23 +393,9 @@ body{
   color: rgb(14, 13, 13);
 }
 }
-
-
-
 /**************************/
 /* Fixing Safari flexbox gap */
 /**************************/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
-
 
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
