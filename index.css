@@ -180,10 +180,6 @@ body{
 .step-img-box {
   position: relative;
   display: grid;
-  height:fit-content;
-  grid-template-columns: repeat(2, 1fr);
-  position: relative;
-  display: grid;
   grid-template-columns: 1fr 1fr; /* Two columns */
   grid-template-rows: auto; /* Single row for images */
   gap: 10px; /* Adjust the gap between images */
